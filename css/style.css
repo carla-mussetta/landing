@@ -1,0 +1,90 @@
+@import url("css/components/banner.css")
+@import url("css/components/button.css")
+@import url("css/components/form.css")
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgba(135, 206, 235, 0.5);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(135, 206, 235, 0.5);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.banner p {
+    margin-bottom: 60px; /* Ajuste la valeur selon l'espace désiré */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+    justify-content: space-around; /* Espacement entre les cartes */
+}
+
+.card {
+    flex-direction: column; /* Aligne le contenu verticalement */
+    align-items: center; /* Centre horizontalement */
+    justify-content: space-between; /* Espace entre les éléments */
+    padding: 20px; /* Espacement intérieur */
+    flex-basis: 250px; /* Largeur de base de la carte */
+    margin: 10px; /* Espacement autour des cartes */
+    border: 1px solid #ccc; /* Bordure légère autour de la carte */
+    border-radius: 8px; /* Coins arrondis */
+    background-color: #f9f9f9; /* Couleur de fond de la carte */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 300px; /* Largeur maximale de la carte */
+}
+
+.card h3 {
+    text-align: center; /* Centre le texte du titre */
+    margin-bottom: 10px; /* Espacement en bas du titre */
+}
+
+.card p {
+    text-align: center; /* Centre le texte du paragraphe */
+    margin-bottom: 10px; /* Espacement en bas du paragraphe */
+}
+
+.btn-blue {
+    margin-top: auto; /* Pousse le bouton vers le bas de la carte */
+}
+

@@ -1,0 +1,27 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),url('../../images/banner.jpg');   
+  background-size: cover;     
+  background-position: center;
+  color: white;
+  padding: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+    color: white; /* Couleur du texte */
+    font-size: 50px; /* Taille du texte */
+    -webkit-text-stroke: 1.5px #4a90e2; /* Bordure bleue */
+    text-shadow: none; /* Supprime l'ombre si tu n'en veux pas */
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+
+}
+
+.banner p {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+ -webkit-text-stroke: 1px #4a90e2; /* Bordure bleue */
+    text-shadow: none;
+}

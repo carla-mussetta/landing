@@ -1,0 +1,28 @@
+.btn-blue {
+	background-color: #3a78b5;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.btn-blue:hover {
+    background-color: #2e5d87; /* Couleur au survol (optionnel) */
+}
+.btn {
+    background-color: #3a78b5; /* Couleur de fond du bouton */
+    padding: 10px 15px; /* Réduit l'espacement intérieur */
+    border-radius: 3px; /* Coins légèrement arrondis */
+    color: white; /* Couleur du texte */
+    font-weight: bold; /* Texte en gras */
+    font-family: 'Roboto', sans-serif; /* Police */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 14px; /* Taille de police légèrement réduite */
+    transition: background-color 0.3s; /* Animation lors du changement de couleur */
+}
+
+.btn:hover {
+    background-color: #2e5d87; /* Couleur au survol (optionnel) */
+}
